@@ -1,0 +1,40 @@
+.body{
+    height:100%;
+    width:100%;
+}
+
+.text-center{
+    text-align: center;
+}
+.container{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    background-color: skyblue;
+    padding: 18px;
+    margin: 0 2px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius:10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.btn:hover{
+    background-color: white;
+}
+.row{
+    margin: 8px 0px;
+}
+.row input{
+    width: 222px;
+    font-size: 20px;
+    margin: 0;
+    padding:10px 0px;
+    border: 2px solid black;;
+    border-radius:5px;
+    box-shadow: 2px 2px 2px 2px black;
+}
